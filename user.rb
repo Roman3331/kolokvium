@@ -1,3 +1,5 @@
+Рядок №8 використання devise
+
 # frozen_string_literal: true
 
 class User < ApplicationRecord
@@ -8,3 +10,4 @@ class User < ApplicationRecord
   has_many :properties, dependent: :destroy
   has_many :sales, foreign_key: "buyer_id"
 end
+
